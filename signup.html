@@ -1,90 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Sign Up Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #D4E6F1;
-    }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="singup.css">
+  </head>
+  <body>
+    <h2>Sign Up</h2>
 
-    h2 {
-      text-align: center;
-    }
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required /><br /><br />
 
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
 
-    form {
-      width: 300px;
-      margin: 0 auto;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+      <label for="gmail">Gmail:</label>
+      <input type="gmail" id="gmail" required />
 
-    label {
-      display: block;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    input[type="text"],
-    input[type="password"],input[type="gmail"] {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-
-    input[type="submit"] {
-      width: 100%;
-      padding: 10px;
-      background-color: #5DADE2;
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    input[type="submit"]:hover {
-      background-color: #3498DB ;
-    }
-
-    #username{
-        padding-left:0px;
-      padding-right:0px;
-    }
-
-    #password{
-        padding-left:0px;
-      padding-right:0px;
-    }
-
-    #gmail{
-        padding-left:0px;
-      padding-right:0px;
-    }
-
-  </style>
-</head>
-<body>
-  <h2>Sign Up</h2>
-  
-  <form>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required><br><br>
-    
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br><br>
-
-    <label for="gmail">Gmail:</label>
-    <input type="gmail" id="gmail" required>
-    
-    <input type="submit" value="Sign Up">
-    
-
-  </form>
-
-</body>
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
 </html>

@@ -3,7 +3,6 @@ let currentPage = 1; // Current page number
 let booksData = []; // Array to store all books data
 let filteredBooks = []; // Array to store filtered books data
 
-
 const allBooks = [
   {
     title: "Let Us C++",
@@ -27,13 +26,13 @@ const allBooks = [
     title: "Let's Learn Javascript",
     author: "Dennis Ritchie",
     subject: "Subject 2",
-    publishDate: "2022-04-01",
+    publishDate: "2023-04-01",
   },
   {
     title: "Let's Learn Python",
     author: "Dennis Ritchie",
     subject: "Programming Language",
-    publishDate: "2022-05-01",
+    publishDate: "2023-05-01",
   },
   {
     title: "Let's Learn Kotlin",
@@ -57,7 +56,7 @@ const allBooks = [
     title: "Let's Learn CSS",
     author: "Dennis Ritchie",
     subject: "Subject 1",
-    publishDate: "2022-09-01",
+    publishDate: "2023-09-01",
   },
   {
     title: "Let's Learn Bootstrap",
@@ -75,7 +74,7 @@ const allBooks = [
     title: "Let's Learn Nodejs",
     author: "Dennis Ritchie",
     subject: "Subject 1",
-    publishDate: "2022-12-01",
+    publishDate: "2023-12-01",
   },
   {
     title: "Let's Learn Front-end",
@@ -135,19 +134,19 @@ const allBooks = [
     title: "Let us NodeJs",
     author: "Saroj",
     subject: "Subject 2",
-    publishDate: "2023-10-01",
+    publishDate: "2024-10-01",
   },
   {
     title: "Let us Front-end",
     author: "Saroj",
     subject: "Subject 3",
-    publishDate: "2023-11-01",
+    publishDate: "2024-11-01",
   },
   {
     title: "Let-us Back-end",
     author: "Saroj",
     subject: "Subject 1",
-    publishDate: "2023-12-01",
+    publishDate: "2024-12-01",
   },
   {
     title: "Let us Full-stack",
